@@ -12,6 +12,11 @@ BOT_NAME = "divanpars"
 SPIDER_MODULES = ["divanpars.spiders"]
 NEWSPIDER_MODULE = "divanpars.spiders"
 
+# settings.py
+
+# Enable CSV export
+FEED_FORMAT = 'csv'
+FEED_URI = 'output/lightings.csv'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "divanpars (+http://www.yourdomain.com)"
